@@ -1,4 +1,4 @@
-include_directories("/usr/include/eigen3")
+include_directories("/opt/homebrew/opt/eigen/include/eigen3")
 add_executable(coordinateTransform coordinateTransform.cpp)
 
 find_package(Pangolin REQUIRED)
